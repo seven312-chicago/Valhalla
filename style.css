@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    background-image: url(viking\ swords.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background-color: rgba(16, 1, 1, 0.804);
+    text-align: center;
+}
+h1{
+    color: rgb(208, 204, 204);
+    font-size: 100px;
+    margin: 0;
+    font-family: "Norse-Bold", serif;
+    
+
+
+    
+}
+div.hero{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    height: 300px;
+}
+div.hero h2{
+    color: white;
+    background-color: rgba(47, 46, 46, 0.773);
+    font-size: 50px;
+    font-family:fantasy;
+}
+main h2{
+  text-align: center;
+  font-family: Norse-Bold;
+    font-size: 100px;
+    color: rgb(53, 0, 98);
+    margin-top: 100px;
+
+}
+div.card {
+    background-color: rgba(66, 66, 66, 0.816);
+    width: 550px
+    ;
+    padding: 30px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          text-align: center;
+}
+div.card:hover{
+    background-color: rgba(66, 66, 66, 0.933)
+}
+div.card img{
+    width: 550px;
+    border-radius: 30px;
+}
+header ul{
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    list-style: none;
+}

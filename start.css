@@ -1,0 +1,21 @@
+@font-face{
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin: 0;
+    background-image: url("hela\'s\ gate.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    display: block;
+    font-size: 150px;
+    font-family: "Norse-Bold", serif;
+}
